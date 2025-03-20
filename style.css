@@ -1,0 +1,252 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  /* position: sticky; */
+  top: 0;
+}
+nav {
+  background-color: white;
+}
+.logo {
+  padding: 28px;
+  position: relative;
+  left: 80px;
+  cursor: pointer;
+  background-image: url("https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp");
+  height: 25px;
+  width: auto;
+  background-repeat: no-repeat;
+  top: 12px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  position: relative;
+  justify-self: right;
+  right: 0px;
+  gap: 70px;
+  bottom: 34px;
+}
+li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: large;
+}
+#search {
+  position: relative;
+  height: 25px;
+  width: auto;
+  right: 60px;
+  bottom: 7px;
+  cursor: pointer;
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 80px;
+}
+
+.para1 {
+  /* font-size: 48px; */
+  font: 48px "Segoe UI";
+}
+
+/* New CSS for the h3 tag */
+.about-me {
+  text-align: center;
+  margin-top: 100px; /* Adjust spacing as needed */
+  font-size: 24px; /* Adjust font size as needed */
+  font: 24px "Segoe UI";
+}
+.box0 {
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+  /* font-size: large; */
+  /* align-self: center; */
+  /* background-color: lightblue; */
+  /* cursor: pointer; */
+}
+.box12 {
+  padding: 12px 20px;
+  /* margin: 5px 5px; */
+  /* border: 2px solid lightblue; */
+  background-color: #00b6d1;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#last {
+  background-position-x: left;
+  background-position-y: center;
+  height: 60px;
+  width: auto;
+  /* display: flex; */
+  /* left:80px ; */
+  position: relative;
+  right: 20px;
+}
+.rel {
+  /* background-size: 60px auto */
+  margin: 0px 0px 26.4px;
+  padding: 15px 0px 15px 80px;
+  display: flex;
+  font: 16px "Segoe UI";
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+  /* left: 20px; */
+  overflow: hidden;
+}
+
+span {
+  font: 14.4px "Segoe UI";
+}
+/* .container {
+  width: 100vw;
+  border: 2px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 25px;
+  display: flex;
+  place-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+} */
+
+/* deepseek one */
+/* Fix oversized width issue */
+.container {
+width: auto; /* Changed from 80vw to auto */
+max-width: auto; /* Added max-width to prevent overflow */
+border: 2px solid white;
+/* display: grid; */
+grid-template-columns: 1fr 1fr 1fr; /* Keep your original grid layout */
+row-gap: 25px;
+display: flex;
+place-content: center;
+flex-wrap: wrap;
+gap: 40px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+margin: 0 auto; /* Center the container */
+}
+
+/* Align box10 to the left */
+.box10 {
+position: relative;
+text-align: left;
+margin-left: 0; /* Ensure it aligns to the left */
+justify-self: start; /* Align to the start of the grid cell */
+}
+/* till here */
+
+.main1 {
+  padding-top: 100px;
+  display: grid;
+  justify-content: center;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  padding: 16px;
+  border: 2px solid white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  background-color: whitesmoke;
+
+  /* left: 83px; */
+}
+ /* .box10 {
+  display: flex;
+  position: relative; 
+  text-align: left;
+
+
+} */
+
+.box {
+  align-items: flex-start;
+  font: 24px "segoe ui";
+  /* align-self: baseline; */
+}
+
+.box .inside h3 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-bottom: 30px; */
+}
+.box .inside h4 {
+  display: flex;
+  justify-content: center;
+
+  /* align-items: center; */
+  /* padding-bottom: 30px; */
+}
+.box6,
+#style {
+  /* position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+  text-align: center;
+}
+#style {
+  /* align-items: center; */
+  /* position: relative; */
+  /* right: 12px; */
+  display: inline;
+  background-color: #5cb85c;
+  color: white;
+  padding: 8px 16px;
+  font: 18px "segoe ui";
+  border-radius: 10px;
+  cursor: pointer;
+}
+#small {
+  /* position: relative; */
+  display: flex;
+  /* place-content: center; */
+  justify-content: center;
+  align-items: center;
+  font: 16px "segoe ui";
+  /* padding: 20px; */
+  /* margin-top: 20px;  */
+  /* bottom: 20px; */
+
+}
+.foot{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 8px;
+}
+
+@media only screen and (max-width:456px) {
+    .container{
+      flex-wrap: wrap;
+      flex-direction: column;
+      
+    }
+    .box{
+      background-color: lightblue;
+    }
+}
